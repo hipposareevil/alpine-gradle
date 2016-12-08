@@ -1,3 +1,11 @@
+Table of Contents
+=================
+
+   * [Introduction](#introduction)
+   * [Building image](#building-image)
+   * [Exposed volumes](#exposed-volumes)
+   * [Usage](#usage)
+
 # Introduction
 Docker image used to build projects with [gradle](https://gradle.org). Similar to [maven](https://hub.docker.com/_/maven/).
 
