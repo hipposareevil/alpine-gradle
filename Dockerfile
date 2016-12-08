@@ -18,7 +18,6 @@ VOLUME work
 # Gradle cache directory
 VOLUME GRADLE_CACHE
 
-
 WORKDIR /work
 
 ENTRYPOINT ["/gradle-${GRADLE_VERSION}/bin/gradle", "-g", "/gradle.cache", "--no-daemon"]
